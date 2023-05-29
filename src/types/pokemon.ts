@@ -1,4 +1,4 @@
-export interface PokemonList {
+export interface PokemonListAPI {
   count?: number;
   next?: string;
   previous?: string;
@@ -8,4 +8,10 @@ export interface PokemonList {
 export interface PokemonListResult {
   name: string;
   url: string;
+}
+
+export interface PokemonApi {
+  id: number;
+  name: string;
+  imageUrl: string;
 }
